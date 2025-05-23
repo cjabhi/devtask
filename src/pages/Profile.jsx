@@ -6,9 +6,9 @@ const Profile = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex items-center justify-center min-h-screen">
       {/* Large screen: simulated mobile view */}
-      <div className="hidden lg:block border border-gray-300 rounded-md bg-white shadow-md">
+      <div className="hidden lg:block border border-gray-300 rounded-md bg-gray-100 shadow-md">
         <div className="w-[360px] h-[700px] flex flex-col justify-start">
           <Setting navigate={navigate} />
         </div>
